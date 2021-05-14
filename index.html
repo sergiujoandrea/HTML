@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Encodarea UTF-8 pentru diacritice -->
+    <meta charset="UTF-8">
+    <!-- Autorul paginii -->
+    <meta name="author" content="Joandrea Sergiu-Cătălin">
+    <!-- Portabilitate, face ca pagina sa arate ok indiferent de divece-ul pe care e deschisă -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Importăm font style-ul Antonio.-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+    <!-- Importăm stilurile din fișierul reset.css-->
+    <link rel="stylesheet" href="reset.css">
+    <!-- Importăm stilurile din fișierul style.css-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Titlul paginii mele-->
+    <title>Portofoliul meu</title>
+    <!--Alegem icon pentru site(cel din stânga titlului)-->
+    <link rel="shortcut icon" href="./assets/homepage.png" />
+
+</head>
+<body>
+    <header>
+        <a class="logo" href="#home">
+            <img src="./assets/yo.jpg" alt="logo">
+        </a>
+        <nav class="navigation">
+            <a href="#section-1">Pasiuni</a>
+            <a href="#section-2">Portofoliu</a>
+            <a href="#section-3">Recomandări</a>
+            <a href="#section-4">Despre mine</a>
+            <a href="#section-5">Contact</a>
+        </nav>
+    </header>
+    <section id="home" class="hero section-block">
+        <div>
+            <h1>Portofoliul meu</h1>
+            <p>Cum altfel să înveți decât încercând? Așa că uite prima mea încercare de HTML și CSS.</br>
+                De asemenea, nu strică puțină reclamă în societatea actuală unde să ai studii și CV</br>
+                nu maireprezintă ceva ce te diferențează. Mă numesc Joandrea Sergiu-Cătălin și sunt </br>
+                al Facultății de Electronică, Telecomunicații și Tehnologii Informaționale din cadrul</br>
+                Universitatea Politehnica Timișoara. Deși sunt relativ nou în lumea software, încerc </br>
+                să recuperez învățând și încercând chestii. Video-ul următor cred că descrie modul </br>
+                cum va fi viața mea în lumea IT. 
+            </p>
+            <div class="video-container">
+                <video controls>
+                    <source src="./assets/vacation.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+        </div>
+    </section>
+
+    <section id="section-1" class="section-block grey my-passions"> 
+        <h2>Pasiunile mele</h2>
+        <div class="grid clearfix my-passions-inner-container">
+            <div class="grid-box box-third my-passions-box">
+                <h3>Gaming</h3>
+                <p>Ca orice millennial am crescut cu tehnologia, iar aceasta a fost parte din viața mea.</br>
+                    Următoarele jocuri mi-au mâncat timpul și banii( la propriu:D): 
+                 </p>
+                    <ul>
+                        <li>Hearthstone</li>
+                        <li>Fifa</li>
+                        <li>PES</li>
+                        <li>Clash of clans</li>
+                        <li>Clash Royale</li>
+                        <li>Coin Master</li>
+                      </ul>
+                 
+            </div>
+            <div class="grid-box box-third">
+                <h3>Programarea</h3>
+                <p>Am crescut cu tehnologia, dar curiozitatea nu m-a împins de mic să aflu</br>
+                    toate tainele ascunse mai mult sau mai puțin. În liceu din păcate încă nu</br>
+                    mi-a fost insuflată. Abia la facultate când am văzut scopul și rezultatul </br>
+                    pe care îl obținem am început să fiu mai curios. Până acum am studiat următoarele limbaje:
+                 </p>
+                    <ol>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ol>
+                
+            </div>
+            <div class="grid-box box-third">
+                <h3>Fotbalul</h3>
+                <p>Cu toate că nu are legătura cu tehnologia, fiind băiat am fost atras de fotbal. </br>
+                    Am jucat câțiva ani la clubul din orașul natal, însă am renunțat pentru că nu eram  </br>
+                    suficient de bun pentru a face performanță. În liceu m-am întors la pasiunea mea, fotbalul  </br>
+                    prin terminarea unui curs de arbitru pentru niște bani de buzunar și a mă menține în formă.
+                 </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-2" class="section-block purple my-portfolio"> 
+        <h2>Proiectele mele</h2>
+        <h3>O să prezint pe scurt 3 proiecte recente pe care le gășiti pe github( vezi <a href="#section-5">Contact</a> ) dacă sunteți curioși:</h3>
+        <div class="grid clearfix my-portfolio-inner-container">
+           
+            <div class="grid-box box-third my-portfolio-box">
+                <h3>Design of a system architecture for an Elevator system</h3>
+                <p>În prezent fac timp de 10 săptămâni laboratoare în cadrul Nokia pe partea de Telecom. </br>
+                    Una dintre temele opționale primite a fost Design of a system architecture for an Elevator</br>
+                    system care m-a învățat foarte multe și mi-a deschis orizonturile în tratarea unui asemenea task.
+                 </p>
+            </div>
+
+            <div class="grid-box box-third">
+                <h3>Divizor fix cu 51</h3>
+                <p>În anul 2 semestrul 2 am o materie numită Proiect de Circuite electronice. </br>
+                    Aici am fost grupați în echipe de 2. Împreună cu coechipierul meu, Gricz David-Alex, </br>
+                    consider că am venit cu o propunere inovativă
+                 </p>
+            </div>
+
+            <div class="grid-box box-third">
+                <h3>Web scraping</h3>
+                <p>La discplina Limbaje de Programare 2 am primit de extras de pe site-ul celor de la Elefant</br>
+                    toate cărțile legate de "star-wars", iar autorul, prețul și titlul să le trecem într-un fișier .json.</br>
+                    De menționat că noi studiem Python așa că am folosit module specializate din acesta și anume </br>
+                    Beautifulsoup,Selenium și Requests.
+                 </p>
+            </div>
+
+            
+        </div>
+    </section>
+    <section id="section-3" class="section-block green my-recommendation"> 
+        <h2>Recomandări</h2>
+        <div class="grid clearfix my-recommendation-inner-container">
+        
+            <div class="grid-box box-half recommendation-section-box">
+                <img src="./assets/15_057.jpg" alt="profile photo">
+                <div>
+                    <h3>Joandrea Sergiu-Cătălin</h3>
+                    <p>Dacă nu aș crede în mine ar însemna că sunt ateu. </br>
+                    Am încredere în mine și acesta e doar începutul. 
+                    </p>
+                </div>
+            </div>
+            <div class="grid-box box-half recommendation-section-box">
+                <img src="./assets/branco.jpg" alt="profile photo">
+                <div>
+                    <h3>Branco Arsenov</h3>
+                    <p>Cam leneș și nici cel mai sclipitor elev pe care l-am avut. </br>
+                     Cu toate acestea cumva tot știa la ore, concursuri sau la meditații pentru BAC.
+                    </p>
+                 </div>
+            </div>
+            <div class="grid-box box-half recommendation-section-box">
+                    <img src="./assets/dobafrancisc.jpg" alt="profile photo">
+                    <div>
+                        <h3>Doba Francisc</h3>
+                        <p>Din cei pe care i-am avut la meditații era relativ leneș. </br>
+                        Și tot comparat cu aceeași oameni, el era printre primii să înțeleagă. 
+                        </p>
+                </div>
+            </div>
+            <div class="grid-box box-half recommendation-section-box">
+                    <img src="./assets/poto.jpg" alt="profile photo">
+                    <div>
+                        <h3>Potocean Mircea</h3>
+                        <p>A fost un elev ca si privirea mea. La început ai dubii </br>
+                        dacă merge bine și la final îți dai seama că e genial.
+                        </p>
+                </div> 
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section id="section-4" class="section-block red about-me">
+        <h2>Despre mine</h2>
+        <div class="about-me-inner-container">
+            <img src="./assets/15_057.jpg" alt="my photo">
+            <div>
+                <h3>Bună, eu sunt Sergiu</h3>
+                <p>În următorul tabel o să vă fac un rezumat cu realizările mele mai notabile decât mențiunile la olimpiade județene:
+                </p>
+                <table id="achievements">
+                    <tr>
+                      <th>Activitate/Concurs</th>
+                      <th>Premiu</th>
+                      <th>An</th>
+                    </tr>
+                    <tr>
+                      <td>Cangurul Matematician</td>
+                      <td>Premiu 1</td>
+                      <td>2010</td>
+                    </tr>
+                    <tr>
+                        <td>Olimpiada județeană de Fizică</td>
+                        <td>Mențiune</td>
+                        <td>2014</td>
+                    </tr>
+                    <tr>
+                      <td>Olimpiada județeană de Fizică</td>
+                      <td>Premiul 3</td>
+                      <td>2015</td>
+                    </tr>
+                    <tr>
+                        <td>Examen capacitate clasa a 8-a</td>
+                        <td>9.95</td>
+                        <td>2015</td>
+                      </tr>
+                    <tr>
+                      <td>Olimpiada județeană de Fizică</td>
+                      <td>Premiul 3</td>
+                      <td>2017</td>
+                    </tr>
+                    <tr>
+                      <td>Concursul de Fizică "Micul Experimentator"</td>
+                      <td>Mențiune</td>
+                      <td>2017</td>
+                    </tr>
+                    <tr>
+                      <td>Concursul de Matematică Valeriu Alaci</td>
+                      <td>Mențiune</td>
+                      <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>Bacalaureat</td>
+                        <td>9.93</td>
+                        <td>2019</td>
+                      </tr>
+                    <tr>
+                        <td>Examenul de admitere Universitatea Politehnica Timișoara</td>
+                        <td>92 pct</td>
+                        <td>2019</td>
+                    </tr>
+                  </table>
+                  <p>Acum sunt în anul 2 la ETcTi și am intrat la laboratoare în cadrul Nokia pe Telecom și Google pe Android.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <footer id="section-5" class="section-block grey not-fullscreen">
+        <h3>Date de contact</h3>
+        <address>
+            Strada Cloșca <br>
+            Număr 27 <br>
+            Curtici, România</address>
+        <div class="phone-number">
+            <img src="./assets/phone.png" alt="phone-logo">
+            <a href="telto:+40740621906">+40 740 621 906</a>
+        </div>
+        <div class="email-adress">
+            <img src="./assets/mail.png" alt="mail-logo">
+            <a href="mailto:joandreasergiu@gmail.com">joandreasergiu@gmail.com</a>
+        </div>
+        <div class="img-container">
+            <a href="https://github.com/sergiujoandrea" alt="github" target="_blank">
+                <img src="./assets/github.png" >
+            </a>
+            <a href="https://www.facebook.com/sergiu.joandrea"  alt="facebook" target="_blank">
+                <img src="./assets/facebook.png" >
+            </a>
+            <a href="https://www.instagram.com/sergiujoandrea/"  alt="instagram" target="_blank">
+                <img src="./assets/instagram.png" >
+        </div>
+        
+    </footer>
+
+</body>
+</html>
